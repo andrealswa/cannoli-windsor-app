@@ -1,0 +1,19 @@
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titleContainer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.subtitle {
+  margin-top: 40px;
+}
+
+.calendarContainer {
+  margin-top: 50px;
+}

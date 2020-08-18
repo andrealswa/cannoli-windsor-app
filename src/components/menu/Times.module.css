@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.titleContainer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.subtitle {
+  margin-top: 40px;
+}
+
+.timeColumnsContainer {
+  display: flex;
+  margin-top: 30px;
+}
+
+.afternoonColumn {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eveningColumn {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  margin: 5px;
+  width: 80px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: white;
+  border: none;
+  transition-duration: 500ms;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.239) 0px 2px 5px 0px;
+}
+.button:hover {
+  background-color: #e9b47b83;
+}
+.button:focus {
+  outline: none;
+  border: 2px solid #fffefe00;
+  background-color: #e9b47b83;
+}
+
+.buttonDisabled {
+  border: none;
+  background-color: white;
+  color: #afabab;
+  cursor: not-allowed; /* disables use of cursor */
+  pointer-events: none; /* disables use of clicking */
+  margin: 5px;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+}

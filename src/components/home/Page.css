@@ -1,0 +1,133 @@
+.home-flex-container {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.home-title {
+  padding: 20px;
+  font-size: 35px;
+}
+
+.home-grid-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 400px;
+}
+
+.home-grid-container-top {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 400px;
+}
+
+.home-grid-container-second {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 400px;
+}
+
+.home-grid-container-social-media {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 400px;
+}
+
+.home-image-one {
+  height: 200px;
+  width: auto;
+}
+
+.home-image-two {
+  height: 300px;
+  width: auto;
+}
+
+.image-center {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-center-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.instagram-social-media {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  margin-right: 100px;
+}
+
+.instagram-social-media:hover {
+  height: 110px;
+  width: 110px;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+/* THIS IS MOBILE VIEW */
+@media screen and (max-width: 640px) {
+  .home-grid-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 300px;
+  }
+
+  .home-grid-container-top {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 300px;
+  }
+
+  .home-grid-container-second {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 350px 150px;
+  }
+
+  .home-grid-container-social-media {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 150px;
+  }
+
+  .left-section {
+    text-align: center;
+    height: 10px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-social {
+    text-align: center;
+  }
+
+  .instagram-social-media {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    margin-right: 0px;
+  }
+}

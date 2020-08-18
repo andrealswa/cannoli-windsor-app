@@ -1,0 +1,61 @@
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.titleContainer {
+  display: block;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.title {
+  /* don't need anything here */
+}
+
+.subtitle {
+  margin-top: 50px;
+}
+
+.pickup {
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px 0px 0px 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.239) 0px 2px 5px 0px;
+  clip-path: inset(-5px 0px -5px -5px);
+  /* Removes excess shadow between buttons with magic somehow */
+  transition-duration: 300ms;
+}
+
+.pickup:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.pickup:focus {
+  background-color: rgb(253, 210, 170);
+  outline: none;
+}
+
+.delivery {
+  background-color: rgb(240, 240, 240);
+  border-radius: 0px 20px 20px 0px;
+  padding: 20px;
+  box-shadow: rgba(3, 2, 2, 0.239) 0px 2px 5px 0px;
+  transition-duration: 300ms;
+}
+
+.delivery:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.delivery:focus {
+  background-color: rgb(253, 210, 170);
+  outline: none;
+}

@@ -1,0 +1,30 @@
+.section-class {
+  opacity: 0;
+  transform: translate(0%, 50%);
+  visibility: hidden;
+  transition: opacity 700ms ease-in-out, transform 700ms ease-in-out;
+  will-change: opacity, visibility;
+}
+
+.section-class-from-left {
+  opacity: 0;
+  transform: translate(-50%, 0%);
+  visibility: hidden;
+  transition: opacity 700ms ease-in-out, transform 700ms ease-in-out;
+  will-change: opacity, visibility;
+}
+
+.section-class-from-right {
+  opacity: 0;
+  transform: translate(50%, 0%);
+  visibility: hidden;
+  transition: opacity 700ms ease-in-out, transform 700ms ease-in-out;
+  will-change: opacity, visibility;
+}
+
+.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  display: flex;
+}
